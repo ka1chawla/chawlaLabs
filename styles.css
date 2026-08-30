@@ -159,63 +159,10 @@ p {
   color: var(--white);
 }
 
-/* Left social rail — stays mid-viewport while scrolling */
+/* Left social rail — hidden */
 
 .social-rail {
-  position: fixed;
-  left: clamp(0.75rem, 1.8vw, 1.25rem);
-  top: 0;
-  bottom: 0;
-  height: fit-content;
-  margin-block: auto;
-  z-index: 50;
-  display: none;
-  flex-direction: column;
-  gap: 0.85rem;
-  pointer-events: none;
-}
-
-@media (min-width: 700px) {
-  .social-rail {
-    display: flex;
-  }
-}
-
-.social-rail a {
-  pointer-events: auto;
-  display: grid;
-  place-items: center;
-  width: 2.45rem;
-  height: 2.45rem;
-  border-radius: 0.45rem;
-  color: var(--white);
-  background: rgba(8, 12, 18, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  transition: background 0.25s var(--ease), border-color 0.25s var(--ease),
-    color 0.25s var(--ease), transform 0.25s var(--ease);
-}
-
-.social-rail a:hover,
-.social-rail a:focus-visible {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--white);
-  transform: translateY(-2px);
-}
-
-body.is-scrolled .social-rail a {
-  color: var(--ink);
-  background: rgba(250, 248, 244, 0.92);
-  border-color: var(--line-dark);
-}
-
-body.is-scrolled .social-rail a:hover,
-body.is-scrolled .social-rail a:focus-visible {
-  color: var(--white);
-  background: var(--accent);
-  border-color: var(--accent);
+  display: none !important;
 }
 
 @media (min-width: 768px) {
@@ -689,7 +636,11 @@ a.work-item-link:hover {
 .contact-social {
   justify-self: stretch;
   align-self: center;
-  padding-top: 0;
+  margin: 0.5rem 0 0.5rem 0.75rem;
+  padding: 1.35rem 1.35rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 0.65rem;
+  background: rgba(8, 12, 18, 0.28);
 }
 
 .contact-social-label {
