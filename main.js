@@ -4,8 +4,9 @@
 
   const header = document.querySelector(".site-header");
   const onScroll = () => {
-    if (!header) return;
-    header.classList.toggle("is-solid", window.scrollY > 48);
+    const scrolled = window.scrollY > 48;
+    if (header) header.classList.toggle("is-solid", scrolled);
+    document.body.classList.toggle("is-scrolled", scrolled);
   };
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
