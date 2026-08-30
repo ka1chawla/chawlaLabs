@@ -1,0 +1,28 @@
+styles.css
+  s_167a68a3935bec::t_ff127f507efea4 629
+  s_167a68a3935bec::t_4a22b3a8955395 666,671,675-678,690-692
+  s_167a68a3935bec::t_12578cdee4e20a 162,166-171,174-175,185,188-189,192-195,208,210,214-215
+  s_167a68a3935bec::t_0ed9712e7216e1 811
+main.js
+  s_167a68a3935bec::t_3190fe0e098a49 7-9
+index.html
+  s_167a68a3935bec::t_6283a1d60b543d 266
+  s_167a68a3935bec::t_50ec62746926d7 267-300
+  s_167a68a3935bec::t_9a0fae44e5b1ee 301
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "03d064de9bedc1fc4e96a175ebc163211549aeb8",
+  "prompts": {},
+  "sessions": {
+    "s_167a68a3935bec": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "2954689b-e97f-4013-bb79-18dc2dd0972c",
+        "model": "auto-smart"
+      },
+      "human_author": "kashish.chawla <kashish.chawla@telekom-digital.com>"
+    }
+  }
+}
