@@ -1,0 +1,20 @@
+styles.css
+  s_167a68a3935bec::t_b099a49a6926af 639-643
+  s_167a68a3935bec::t_42f4f9d14b7dda 162,165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "a6cb72d6df94609388afd133e7b3e23054c42b23",
+  "prompts": {},
+  "sessions": {
+    "s_167a68a3935bec": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "2954689b-e97f-4013-bb79-18dc2dd0972c",
+        "model": "auto-smart"
+      },
+      "human_author": "kashish.chawla <kashish.chawla@telekom-digital.com>"
+    }
+  }
+}
