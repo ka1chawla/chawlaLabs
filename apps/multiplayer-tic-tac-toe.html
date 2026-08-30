@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplayer Tic Tac Toe — Chawla Labs</title>
+    <meta
+      name="description"
+      content="Multiplayer tic-tac-toe for up to five players on one device, with a bot for solo play. Available on Google Play."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="page-app">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header is-solid" data-reveal>
+      <a class="logo" href="../index.html">Chawla Labs</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html#apps">Apps</a>
+        <a href="../index.html#open-source">Open Source</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="../index.html#contact">Get in touch</a>
+    </header>
+
+    <main id="main" class="app-page">
+      <div class="app-page-inner">
+        <p class="app-crumb" data-reveal>
+          <a href="../index.html#apps">Apps</a> / Multiplayer Tic Tac Toe
+        </p>
+
+        <p class="app-status" data-reveal>On Google Play</p>
+        <h1 data-reveal>Multiplayer Tic Tac Toe</h1>
+        <p class="app-lead" data-reveal>
+          Classic tic-tac-toe stretched to five players on one device — solo vs
+          bot, pass-and-play matches, and boards that grow with the crowd.
+        </p>
+
+        <div class="app-actions" data-reveal>
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=com.tictacfive.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Get on Google Play</a>
+          <a class="btn btn-ghost btn-ghost-ink" href="../index.html#apps">
+            All apps
+          </a>
+        </div>
+
+        <section class="app-block" data-reveal>
+          <h2>Gameplay</h2>
+          <p>
+            Pick how many people are playing (1–5). Seats get shapes in a fixed
+            order — circle, cross, triangle, square, pentagon — each with its
+            own colour. Lines count horizontally, vertically, and on both
+            diagonals; a full board with no line is a draw.
+          </p>
+          <table class="app-table">
+            <thead>
+              <tr>
+                <th>Players</th>
+                <th>Board</th>
+                <th>Connect to win</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 (you + bot)</td>
+                <td>3 × 3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>3 × 3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>3–4</td>
+                <td>5 × 5</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>6 × 6</td>
+                <td>4</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="app-block" data-reveal>
+          <h2>Features</h2>
+          <ul class="app-features">
+            <li>Solo mode with Easy, Medium, and Hard bot difficulty</li>
+            <li>Sound, ambient music, and haptic feedback — mute anytime</li>
+            <li>Resume an unfinished match after closing the app</li>
+            <li>Statistics, streaks, and a leaderboard you can reset</li>
+            <li>Light, dark, and Material You themes</li>
+            <li>Animated draws, winning-line highlight, and confetti on wins</li>
+          </ul>
+        </section>
+
+        <p class="app-back" data-reveal>
+          <a class="btn btn-ghost btn-ghost-ink" href="../index.html#apps">
+            ← Back to apps
+          </a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Chawla Labs. Crafted with care.</p>
+      <p class="footer-note">Apps · Open Source · Collaboration</p>
+    </footer>
+
+    <script src="../main.js" defer></script>
+  </body>
+</html>
