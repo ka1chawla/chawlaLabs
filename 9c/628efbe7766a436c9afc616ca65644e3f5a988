@@ -1,0 +1,28 @@
+toddler-learning-games/privacy/index.html
+  s_24da07431529d0::t_fb40dc00cabc0e 1-223
+styles.css
+  s_24da07431529d0::t_01bfdc419d053f 1032-1054
+index.html
+  s_24da07431529d0::t_f5f163c1eff673 85,88,90-91,98,101,103-105
+apps/color-shapes.html
+  s_24da07431529d0::t_417294459cf7d1 35,39
+  s_24da07431529d0::t_54e50e33eac961 53-54
+  s_24da07431529d0::t_afaaff69f65c72 52
+  s_24da07431529d0::t_f140e0bd0bdfee 6,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c628efbe7766a436c9afc616ca65644e3f5a988",
+  "prompts": {},
+  "sessions": {
+    "s_24da07431529d0": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ca65e612-57aa-49e6-a8ac-6e66d1884268",
+        "model": "auto-smart"
+      },
+      "human_author": "kashish.chawla <kashish.chawla@telekom-digital.com>"
+    }
+  }
+}
