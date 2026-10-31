@@ -1,0 +1,23 @@
+apps/smart-alarm.html
+  s_24da07431529d0::t_70d1df27999480 1-119
+index.html
+  s_24da07431529d0::t_36e1f333041040 111-124
+smart-alarm/privacy/index.html
+  s_24da07431529d0::t_e86948c7ad4a99 1-252
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "56de193f8a22d2ab98e9260c24fd36e4daf45980",
+  "prompts": {},
+  "sessions": {
+    "s_24da07431529d0": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ca65e612-57aa-49e6-a8ac-6e66d1884268",
+        "model": "auto-smart"
+      },
+      "human_author": "kashish.chawla <kashish.chawla@telekom-digital.com>"
+    }
+  }
+}
